@@ -73,6 +73,207 @@ body{
      background: #fff;
      box-shadow: 0 0 35px 0 rgba(0,0,0,0.25);
 }
+
+/* Siswa */
+.bagian-siswa {
+    background-color: coral;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-001 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-001 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-001 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-002 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-002 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-002 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-003 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-003 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-003 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-004 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-004 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-004 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-005 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-005 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-005 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-006 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-006 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-006 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-007 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-007 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-007 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
+
+.card-008 {
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    box-shadow: 8px 5px 10px grey;
+    margin: 15px;
+    padding: 10px 0;
+}
+.siswa-008 {
+    padding: 10px 0;
+    margin: 10px 25px 15px 25px;
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    background-image: url('../css/conan.jpg');
+    background-size: cover;
+    background-color: pink;
+}
+.data-siswa-008 {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 25px;
+}
 /* Mobile navigation */
  .nav-mobile {
      display: none;
