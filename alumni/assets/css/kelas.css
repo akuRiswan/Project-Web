@@ -158,3 +158,26 @@ body{
      transform: rotate(-45deg);
 }
 }
+/*List class A-K*/
+.list-class {
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+.class-a {
+    top: 0;
+    border: 2px solid yellow;
+    height: 100px;
+    margin: 0px;
+    background-color: lightpink;
+}
+.img-a {
+    margin: 15px 5px 0px 25px;
+    width: 70px;
+    height: 70%;
+    background-color: black;
+}
+.text-a {
+    color: yellow;
+    background-color: skyblue;
+}
