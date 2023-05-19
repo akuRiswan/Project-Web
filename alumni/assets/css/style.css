@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@300&display=swap');
 body{
     margin: 0;
-     padding: 0;
-     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
  .navigation {
      height: 55px;
@@ -10,16 +10,20 @@ body{
 }
  .brand {
      position: absolute;
-     padding-left: 20px;
+     padding-left: 10px;
      float: left;
      line-height: 55px;
      text-transform: uppercase;
      font-size: 1.4em;
 }
  .brand a, .brand a:visited {
-     color: #ffffff;
+     color: #36f53f;
      text-decoration: none;
 }
+.text-alumni {
+    color: lightcyan;
+}
+
  .nav-container {
      max-width: 1000px;
      margin: 0 auto;
@@ -40,17 +44,17 @@ body{
      display: block;
      padding: 0 20px;
      line-height: 55px;
-     color: #fff;
+     color: lightcyan;
      background: #4199fe ;
      text-decoration: none;
 }
  nav ul li a{
      background: transparent;
-     color: #FFF;
+     color: lightcyan;
 }
  nav ul li a:hover, nav ul li a:visited:hover {
      background: #2581DC;
-     color: #ffffff;
+     color: lightcyan;
 }
  .navbar-dropdown li a{
      background: #2581DC;
@@ -169,10 +173,17 @@ html {
 
 .bckg {
     position: relative;
-    height: 105vh;
+    height: 100vh;
     width: 100%;
   }
-  
+
+.chevrons-down {
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .blur-background {
     position: absolute;
     top: 0;
@@ -183,14 +194,19 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 3px -5px 32px 0 black;
+    border-radius: 10px;
     filter: blur(0.7px);
     opacity: 1;
-    z-index: -1;
+    z-index: 1;
 }
 
 .bckg h1 {
     color: #fff;
+}
+.ty {
+    z-index: 1;
+    position: relative;
 }
 .bagian-dev {
   display: flex;
@@ -201,8 +217,7 @@ html {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  z-index: 3;
-
+  z-index: 5;
 }
 .card1 {
   width: 300px;
@@ -214,6 +229,7 @@ html {
   text-decoration: none;
   padding: 10px 0;
   border-radius: 8px;
+  z-index: 1;
 
 }
 .akmal {
@@ -243,6 +259,7 @@ html {
   margin: 15px;
   padding: 10px 0;
   border-radius: 8px;
+  z-index: 1;
 }
 
 .riswan {
@@ -271,6 +288,7 @@ html {
   margin: 15px;
   padding: 10px 0;
   border-radius: 8px;
+  z-index: 5;
 }
 .romi {
   padding: 10px 0;
