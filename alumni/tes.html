@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Halaman Label Redirect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    select {
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 8px 12px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pilih Label</h1>
+  
+  <label for="redirect-select">Pilih Halaman:</label>
+  <select id="redirect-select">
+    <option value="">Pilih halaman...</option>
+    <option value="halaman1.html">Halaman 1</option>
+    <option value="halaman2.html">Halaman 2</option>
+    <option value="halaman3.html">Halaman 3</option>
+  </select>
+  
+  <button onclick="redirectToSelected()">Go</button>
+
+  <script>
+    function redirectToSelected() {
+      var select = document.getElementById('redirect-select');
+      var selectedValue = select.value;
+
+      if (selectedValue !== '') {
+        window.location.href = selectedValue;
+      }
+    }
+  </script>
+</body>
+</html>
